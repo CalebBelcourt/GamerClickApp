@@ -58,6 +58,7 @@ Date: March 13, 2020
             <!-- Content -->
             <div class='row'>
                 <div id='content'>
+                <!-- $match is the message sent by model. contains either a match's contact info or default message -->
 					             <h2><?php echo $match; ?></h2>
                 </div>
             </div>
